@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="distributesecurityuaa" />
+        <module name="distributesecurityorder" />
+        <module name="distributesecuritydiscovery" />
+        <module name="distributesecuritygateway" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="distributesecuritydiscovery" options="-parameters" />
+      <module name="distributesecuritygateway" options="-parameters" />
+      <module name="distributesecurityorder" options="-parameters" />
+      <module name="distributesecurityuaa" options="-parameters" />
+    </option>
+  </component>
+</project>

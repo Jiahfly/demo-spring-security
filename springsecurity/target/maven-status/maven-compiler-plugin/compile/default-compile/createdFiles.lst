@@ -1,0 +1,3 @@
+com\xiaofeifei\security\springmvc\config\ApplicationConfig.class
+com\xiaofeifei\security\springmvc\controller\LoginController.class
+com\xiaofeifei\security\springmvc\init\SpringSecurityApplicationInitializer.class
