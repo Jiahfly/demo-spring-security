@@ -2,6 +2,6 @@
 spring的security的相关代码学习
 分为三个版本：
 第一个版本是基于springmvc的认证授权
-第二个版本是基于springboot的单体认证授权
+第二个版本是基于springboot的基于内存的，单体认证授权
 第三个版本是基于springcloud的认证授权
 
